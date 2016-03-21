@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/master_page/MasterPage.Master" AutoEventWireup="true" CodeBehind="manager.master.cs" Inherits="logicuniversity.master_page.manager" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="main_body" Runat="Server">
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+
+                    <li>
+                  
+                         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Views/ConfirmAdjVoubymgr.aspx"> <i class="fa fa-desktop"></i> Confirm Adjustment Voucher</asp:HyperLink>
+                    
+                    </li>
+                    
+                </ul>
+
+            </div>
+
+        </nav>
+    <div id="page-wrapper">
+            <div id="page-inner">
+                <asp:ContentPlaceHolder id="body" runat="server">    
+            
+                </asp:ContentPlaceHolder> 
+            </div>
+        </div>  
+</asp:Content>

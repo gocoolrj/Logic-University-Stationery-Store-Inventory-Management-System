@@ -1,0 +1,1015 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StationeryDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="catalogue">
+    <Key>
+      <PropertyRef Name="item_code" />
+    </Key>
+    <Property Name="item_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="catg_id" Type="int" Nullable="false" />
+    <Property Name="description" Type="nvarchar" MaxLength="50" />
+    <Property Name="reorder_level" Type="int" />
+    <Property Name="reorder_quantity" Type="int" />
+    <Property Name="unit" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="category">
+    <Key>
+      <PropertyRef Name="catg_id" />
+    </Key>
+    <Property Name="catg_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="collectionPoint">
+    <Key>
+      <PropertyRef Name="col_id" />
+    </Key>
+    <Property Name="col_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="clerk_emp_id" Type="int" />
+    <Property Name="col_location" Type="nvarchar" MaxLength="50" />
+    <Property Name="col_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="delegation">
+    <Key>
+      <PropertyRef Name="del_id" />
+    </Key>
+    <Property Name="del_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="head_id" Type="int" />
+    <Property Name="emp_id" Type="int" />
+    <Property Name="start_date" Type="datetime" />
+    <Property Name="end_date" Type="datetime" />
+    <Property Name="reason" Type="nvarchar" MaxLength="50" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="deliverOrder">
+    <Key>
+      <PropertyRef Name="do_id" />
+    </Key>
+    <Property Name="do_id" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="po_id" Type="nvarchar" MaxLength="50" />
+    <Property Name="sup_code" Type="nvarchar" MaxLength="50" />
+    <Property Name="do_date" Type="datetime" />
+    <Property Name="dept_id" Type="int" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="deliverOrderDetail">
+    <Key>
+      <PropertyRef Name="do_id" />
+      <PropertyRef Name="item_code" />
+    </Key>
+    <Property Name="do_id" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="item_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="quantity" Type="int" />
+    <Property Name="remark" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="department">
+    <Key>
+      <PropertyRef Name="dept_id" />
+    </Key>
+    <Property Name="dept_id" Type="int" Nullable="false" />
+    <Property Name="dept_code" Type="nvarchar" MaxLength="50" />
+    <Property Name="dept_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="dept_phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="dept_fax" Type="nvarchar" MaxLength="50" />
+    <Property Name="col_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="emp_id" />
+    </Key>
+    <Property Name="emp_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="emp_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="role_id" Type="int" />
+    <Property Name="dept_id" Type="int" />
+    <Property Name="emp_email" Type="nvarchar" MaxLength="50" />
+    <Property Name="emp_password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="inventory">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="item_code" Type="nvarchar" MaxLength="50" />
+    <Property Name="bin" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="inventoryAdj">
+    <Key>
+      <PropertyRef Name="voucher_id" />
+    </Key>
+    <Property Name="voucher_id" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="date_issue" Type="datetime" />
+    <Property Name="emp_supervisor_id" Type="int" />
+    <Property Name="emp_auth_id" Type="int" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+    <Property Name="total" Type="decimal" Precision="6" Scale="2" />
+  </EntityType>
+  <EntityType Name="inventoryAdjDetail">
+    <Key>
+      <PropertyRef Name="voucher_id" />
+      <PropertyRef Name="item_code" />
+    </Key>
+    <Property Name="voucher_id" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="item_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="quantity" Type="int" />
+    <Property Name="reason" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="purchaseOrder">
+    <Key>
+      <PropertyRef Name="po_id" />
+    </Key>
+    <Property Name="po_id" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="sup_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="po_date" Type="datetime" />
+    <Property Name="po_duedate" Type="datetime" />
+    <Property Name="po_approvedate" Type="datetime" />
+    <Property Name="net_amount" Type="decimal" Precision="6" Scale="2" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+    <Property Name="remark" Type="nvarchar" MaxLength="255" />
+    <Property Name="deliver_status" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="purchaseOrderDetail">
+    <Key>
+      <PropertyRef Name="po_id" />
+      <PropertyRef Name="item_code" />
+    </Key>
+    <Property Name="po_id" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="item_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="quantity" Type="int" />
+    <Property Name="price" Type="decimal" Precision="6" Scale="2" />
+  </EntityType>
+  <EntityType Name="quotation">
+    <Key>
+      <PropertyRef Name="quo_id" />
+    </Key>
+    <Property Name="quo_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sup_code" Type="nvarchar" MaxLength="50" />
+    <Property Name="year" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="quotationDetail">
+    <Key>
+      <PropertyRef Name="quo_id" />
+      <PropertyRef Name="itemCode" />
+    </Key>
+    <Property Name="quo_id" Type="int" Nullable="false" />
+    <Property Name="itemCode" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="price" Type="decimal" Precision="6" Scale="2" />
+  </EntityType>
+  <EntityType Name="requisition">
+    <Key>
+      <PropertyRef Name="req_id" />
+    </Key>
+    <Property Name="req_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="dept_id" Type="int" />
+    <Property Name="req_emp_id" Type="int" />
+    <Property Name="req_date" Type="datetime" />
+    <Property Name="approve_date" Type="datetime" />
+    <Property Name="approve_emp_id" Type="int" />
+    <Property Name="received_emp_id" Type="int" />
+    <Property Name="received_date" Type="datetime" />
+    <Property Name="req_status" Type="nvarchar" MaxLength="50" />
+    <Property Name="req_reason" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="requisitionByDept">
+    <Key>
+      <PropertyRef Name="req_dept_id" />
+    </Key>
+    <Property Name="req_dept_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="dept_id" Type="int" />
+    <Property Name="req_date" Type="datetime" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="requisitionByDeptDetail">
+    <Key>
+      <PropertyRef Name="req_dept_id" />
+      <PropertyRef Name="item_code" />
+    </Key>
+    <Property Name="req_dept_id" Type="int" Nullable="false" />
+    <Property Name="item_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="req_quantity" Type="int" />
+  </EntityType>
+  <EntityType Name="requisitionDetail">
+    <Key>
+      <PropertyRef Name="req_id" />
+      <PropertyRef Name="item_code" />
+    </Key>
+    <Property Name="req_id" Type="int" Nullable="false" />
+    <Property Name="item_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="req_quantity" Type="int" />
+  </EntityType>
+  <EntityType Name="role">
+    <Key>
+      <PropertyRef Name="role_id" />
+    </Key>
+    <Property Name="role_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="role" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="stockcard">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="item_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="description" Type="nvarchar" MaxLength="50" />
+    <Property Name="date" Type="datetime" />
+    <Property Name="quantity" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="stockLevel">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="item_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="balance" Type="int" />
+  </EntityType>
+  <EntityType Name="supplier">
+    <Key>
+      <PropertyRef Name="sup_code" />
+    </Key>
+    <Property Name="sup_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="sup_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="contact_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="sup_phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="sup_fax" Type="nvarchar" MaxLength="50" />
+    <Property Name="sup_address" Type="nvarchar" MaxLength="200" />
+    <Property Name="sup_gst" Type="nvarchar" MaxLength="50" />
+    <Property Name="sup_status" Type="nvarchar" MaxLength="50" />
+    <Property Name="sup_rank" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="unfulfill">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="item_code" Type="nvarchar" MaxLength="50" />
+    <Property Name="dept_id" Type="int" />
+    <Property Name="quantity" Type="int" />
+    <Property Name="unfufil_date" Type="datetime" />
+    <Property Name="remark" Type="nvarchar" MaxLength="150" />
+    <Property Name="ref" Type="nvarchar" MaxLength="50" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'StationeryDB.dbo.stationery_inventory_view' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="stationery_inventory_view">
+    <Key>
+      <PropertyRef Name="item_code" />
+    </Key>
+    <Property Name="item_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="reorder_level" Type="int" />
+    <Property Name="unit" Type="nvarchar" MaxLength="50" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="reorder_quantity" Type="int" />
+    <Property Name="balance" Type="int" />
+    <Property Name="description" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'StationeryDB.dbo.stationery_po_report_view' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="stationery_po_report_view">
+    <Key>
+      <PropertyRef Name="po_id" />
+      <PropertyRef Name="item_code" />
+      <PropertyRef Name="catg_id" />
+    </Key>
+    <Property Name="po_id" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="item_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="catg_id" Type="int" Nullable="false" />
+    <Property Name="description" Type="nvarchar" MaxLength="50" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="quantity" Type="int" />
+    <Property Name="price" Type="decimal" Precision="6" Scale="2" />
+    <Property Name="po_date" Type="datetime" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+    <Property Name="total" Type="decimal" Precision="17" Scale="2" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'StationeryDB.dbo.stationery_trend_report_view' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="stationery_trend_report_view">
+    <Key>
+      <PropertyRef Name="req_dept_id" />
+      <PropertyRef Name="item_code" />
+      <PropertyRef Name="catg_id" />
+    </Key>
+    <Property Name="req_dept_id" Type="int" Nullable="false" />
+    <Property Name="dept_id" Type="int" />
+    <Property Name="req_date" Type="datetime" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+    <Property Name="item_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="req_quantity" Type="int" />
+    <Property Name="description" Type="nvarchar" MaxLength="50" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="catg_id" Type="int" Nullable="false" />
+    <Property Name="dept_name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'StationeryDB.dbo.view_cataloguePrice' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="view_cataloguePrice">
+    <Key>
+      <PropertyRef Name="item_code" />
+      <PropertyRef Name="catg_id" />
+      <PropertyRef Name="itemCode" />
+    </Key>
+    <Property Name="item_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="catg_id" Type="int" Nullable="false" />
+    <Property Name="description" Type="nvarchar" MaxLength="50" />
+    <Property Name="reorder_level" Type="int" />
+    <Property Name="reorder_quantity" Type="int" />
+    <Property Name="unit" Type="nvarchar" MaxLength="50" />
+    <Property Name="price" Type="decimal" Precision="6" Scale="2" />
+    <Property Name="itemCode" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'StationeryDB.dbo.view_poReport' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="view_poReport">
+    <Key>
+      <PropertyRef Name="po_id" />
+      <PropertyRef Name="item_code" />
+      <PropertyRef Name="catg_id" />
+    </Key>
+    <Property Name="po_id" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="item_code" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="catg_id" Type="int" Nullable="false" />
+    <Property Name="description" Type="nvarchar" MaxLength="50" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="quantity" Type="int" />
+    <Property Name="price" Type="decimal" Precision="6" Scale="2" />
+    <Property Name="po_date" Type="datetime" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+    <Property Name="total" Type="decimal" Precision="17" Scale="2" />
+  </EntityType>
+  <Association Name="FK_catalogue_category">
+    <End Role="category" Type="Self.category" Multiplicity="1" />
+    <End Role="catalogue" Type="Self.catalogue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="category">
+        <PropertyRef Name="catg_id" />
+      </Principal>
+      <Dependent Role="catalogue">
+        <PropertyRef Name="catg_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_collectionPoint_employee">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="collectionPoint" Type="Self.collectionPoint" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="emp_id" />
+      </Principal>
+      <Dependent Role="collectionPoint">
+        <PropertyRef Name="clerk_emp_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_delegation_employee">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="delegation" Type="Self.delegation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="emp_id" />
+      </Principal>
+      <Dependent Role="delegation">
+        <PropertyRef Name="emp_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_delegation_employee1">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="delegation" Type="Self.delegation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="emp_id" />
+      </Principal>
+      <Dependent Role="delegation">
+        <PropertyRef Name="head_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_deliverOrder_department">
+    <End Role="department" Type="Self.department" Multiplicity="0..1" />
+    <End Role="deliverOrder" Type="Self.deliverOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="department">
+        <PropertyRef Name="dept_id" />
+      </Principal>
+      <Dependent Role="deliverOrder">
+        <PropertyRef Name="dept_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_deliverOrder_purchaseOrder">
+    <End Role="purchaseOrder" Type="Self.purchaseOrder" Multiplicity="0..1" />
+    <End Role="deliverOrder" Type="Self.deliverOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="purchaseOrder">
+        <PropertyRef Name="po_id" />
+      </Principal>
+      <Dependent Role="deliverOrder">
+        <PropertyRef Name="po_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_deliverOrder_supplier">
+    <End Role="supplier" Type="Self.supplier" Multiplicity="0..1" />
+    <End Role="deliverOrder" Type="Self.deliverOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="supplier">
+        <PropertyRef Name="sup_code" />
+      </Principal>
+      <Dependent Role="deliverOrder">
+        <PropertyRef Name="sup_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_deliverOrderDetail_catalogue">
+    <End Role="catalogue" Type="Self.catalogue" Multiplicity="1" />
+    <End Role="deliverOrderDetail" Type="Self.deliverOrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catalogue">
+        <PropertyRef Name="item_code" />
+      </Principal>
+      <Dependent Role="deliverOrderDetail">
+        <PropertyRef Name="item_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_deliverOrderDetail_deliverOrder">
+    <End Role="deliverOrder" Type="Self.deliverOrder" Multiplicity="1" />
+    <End Role="deliverOrderDetail" Type="Self.deliverOrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="deliverOrder">
+        <PropertyRef Name="do_id" />
+      </Principal>
+      <Dependent Role="deliverOrderDetail">
+        <PropertyRef Name="do_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_department_collectionPoint">
+    <End Role="collectionPoint" Type="Self.collectionPoint" Multiplicity="1" />
+    <End Role="department" Type="Self.department" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="collectionPoint">
+        <PropertyRef Name="col_id" />
+      </Principal>
+      <Dependent Role="department">
+        <PropertyRef Name="col_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_employee_department">
+    <End Role="department" Type="Self.department" Multiplicity="0..1" />
+    <End Role="employee" Type="Self.employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="department">
+        <PropertyRef Name="dept_id" />
+      </Principal>
+      <Dependent Role="employee">
+        <PropertyRef Name="dept_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_employee_role">
+    <End Role="role" Type="Self.role" Multiplicity="0..1" />
+    <End Role="employee" Type="Self.employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="role">
+        <PropertyRef Name="role_id" />
+      </Principal>
+      <Dependent Role="employee">
+        <PropertyRef Name="role_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_inventory_catalogue">
+    <End Role="catalogue" Type="Self.catalogue" Multiplicity="0..1" />
+    <End Role="inventory" Type="Self.inventory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catalogue">
+        <PropertyRef Name="item_code" />
+      </Principal>
+      <Dependent Role="inventory">
+        <PropertyRef Name="item_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_inventoryAdj_employee2">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="inventoryAdj" Type="Self.inventoryAdj" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="emp_id" />
+      </Principal>
+      <Dependent Role="inventoryAdj">
+        <PropertyRef Name="emp_supervisor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_inventoryAdj_employee3">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="inventoryAdj" Type="Self.inventoryAdj" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="emp_id" />
+      </Principal>
+      <Dependent Role="inventoryAdj">
+        <PropertyRef Name="emp_auth_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_inventoryAdjDetail_catalogue">
+    <End Role="catalogue" Type="Self.catalogue" Multiplicity="1" />
+    <End Role="inventoryAdjDetail" Type="Self.inventoryAdjDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catalogue">
+        <PropertyRef Name="item_code" />
+      </Principal>
+      <Dependent Role="inventoryAdjDetail">
+        <PropertyRef Name="item_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_inventoryAdjDetail_inventoryAdj">
+    <End Role="inventoryAdj" Type="Self.inventoryAdj" Multiplicity="1" />
+    <End Role="inventoryAdjDetail" Type="Self.inventoryAdjDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="inventoryAdj">
+        <PropertyRef Name="voucher_id" />
+      </Principal>
+      <Dependent Role="inventoryAdjDetail">
+        <PropertyRef Name="voucher_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_purchaseOrder_supplier">
+    <End Role="supplier" Type="Self.supplier" Multiplicity="1" />
+    <End Role="purchaseOrder" Type="Self.purchaseOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="supplier">
+        <PropertyRef Name="sup_code" />
+      </Principal>
+      <Dependent Role="purchaseOrder">
+        <PropertyRef Name="sup_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_purchaseOrderDetail_catalogue">
+    <End Role="catalogue" Type="Self.catalogue" Multiplicity="1" />
+    <End Role="purchaseOrderDetail" Type="Self.purchaseOrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catalogue">
+        <PropertyRef Name="item_code" />
+      </Principal>
+      <Dependent Role="purchaseOrderDetail">
+        <PropertyRef Name="item_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_purchaseOrderDetail_purchaseOrder">
+    <End Role="purchaseOrder" Type="Self.purchaseOrder" Multiplicity="1" />
+    <End Role="purchaseOrderDetail" Type="Self.purchaseOrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="purchaseOrder">
+        <PropertyRef Name="po_id" />
+      </Principal>
+      <Dependent Role="purchaseOrderDetail">
+        <PropertyRef Name="po_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_quotation_supplier">
+    <End Role="supplier" Type="Self.supplier" Multiplicity="0..1" />
+    <End Role="quotation" Type="Self.quotation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="supplier">
+        <PropertyRef Name="sup_code" />
+      </Principal>
+      <Dependent Role="quotation">
+        <PropertyRef Name="sup_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_quotationDetail_catalogue">
+    <End Role="catalogue" Type="Self.catalogue" Multiplicity="1" />
+    <End Role="quotationDetail" Type="Self.quotationDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catalogue">
+        <PropertyRef Name="item_code" />
+      </Principal>
+      <Dependent Role="quotationDetail">
+        <PropertyRef Name="itemCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_quotationDetail_quotation">
+    <End Role="quotation" Type="Self.quotation" Multiplicity="1" />
+    <End Role="quotationDetail" Type="Self.quotationDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="quotation">
+        <PropertyRef Name="quo_id" />
+      </Principal>
+      <Dependent Role="quotationDetail">
+        <PropertyRef Name="quo_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_requisition_department">
+    <End Role="department" Type="Self.department" Multiplicity="0..1" />
+    <End Role="requisition" Type="Self.requisition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="department">
+        <PropertyRef Name="dept_id" />
+      </Principal>
+      <Dependent Role="requisition">
+        <PropertyRef Name="dept_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_requisition_employee">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="requisition" Type="Self.requisition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="emp_id" />
+      </Principal>
+      <Dependent Role="requisition">
+        <PropertyRef Name="req_emp_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_requisition_employee1">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="requisition" Type="Self.requisition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="emp_id" />
+      </Principal>
+      <Dependent Role="requisition">
+        <PropertyRef Name="approve_emp_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_requisition_employee2">
+    <End Role="employee" Type="Self.employee" Multiplicity="0..1" />
+    <End Role="requisition" Type="Self.requisition" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="employee">
+        <PropertyRef Name="emp_id" />
+      </Principal>
+      <Dependent Role="requisition">
+        <PropertyRef Name="received_emp_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_requisitionByDept_department">
+    <End Role="department" Type="Self.department" Multiplicity="0..1" />
+    <End Role="requisitionByDept" Type="Self.requisitionByDept" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="department">
+        <PropertyRef Name="dept_id" />
+      </Principal>
+      <Dependent Role="requisitionByDept">
+        <PropertyRef Name="dept_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_requisitionByDeptDetail_catalogue">
+    <End Role="catalogue" Type="Self.catalogue" Multiplicity="1" />
+    <End Role="requisitionByDeptDetail" Type="Self.requisitionByDeptDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catalogue">
+        <PropertyRef Name="item_code" />
+      </Principal>
+      <Dependent Role="requisitionByDeptDetail">
+        <PropertyRef Name="item_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_requisitionByDeptDetail_requisitionByDept">
+    <End Role="requisitionByDept" Type="Self.requisitionByDept" Multiplicity="1" />
+    <End Role="requisitionByDeptDetail" Type="Self.requisitionByDeptDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="requisitionByDept">
+        <PropertyRef Name="req_dept_id" />
+      </Principal>
+      <Dependent Role="requisitionByDeptDetail">
+        <PropertyRef Name="req_dept_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_requisitionDetail_catalogue">
+    <End Role="catalogue" Type="Self.catalogue" Multiplicity="1" />
+    <End Role="requisitionDetail" Type="Self.requisitionDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catalogue">
+        <PropertyRef Name="item_code" />
+      </Principal>
+      <Dependent Role="requisitionDetail">
+        <PropertyRef Name="item_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_requisitionDetail_requisition">
+    <End Role="requisition" Type="Self.requisition" Multiplicity="1" />
+    <End Role="requisitionDetail" Type="Self.requisitionDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="requisition">
+        <PropertyRef Name="req_id" />
+      </Principal>
+      <Dependent Role="requisitionDetail">
+        <PropertyRef Name="req_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stockcard_catalogue">
+    <End Role="catalogue" Type="Self.catalogue" Multiplicity="1" />
+    <End Role="stockcard" Type="Self.stockcard" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catalogue">
+        <PropertyRef Name="item_code" />
+      </Principal>
+      <Dependent Role="stockcard">
+        <PropertyRef Name="item_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_stockLevel_catalogue">
+    <End Role="catalogue" Type="Self.catalogue" Multiplicity="1" />
+    <End Role="stockLevel" Type="Self.stockLevel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catalogue">
+        <PropertyRef Name="item_code" />
+      </Principal>
+      <Dependent Role="stockLevel">
+        <PropertyRef Name="item_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_unfufil_catalogue">
+    <End Role="catalogue" Type="Self.catalogue" Multiplicity="0..1" />
+    <End Role="unfulfill" Type="Self.unfulfill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="catalogue">
+        <PropertyRef Name="item_code" />
+      </Principal>
+      <Dependent Role="unfulfill">
+        <PropertyRef Name="item_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_unfufil_department">
+    <End Role="department" Type="Self.department" Multiplicity="0..1" />
+    <End Role="unfulfill" Type="Self.unfulfill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="department">
+        <PropertyRef Name="dept_id" />
+      </Principal>
+      <Dependent Role="unfulfill">
+        <PropertyRef Name="dept_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StationeryDBModelStoreContainer">
+    <EntitySet Name="catalogue" EntityType="Self.catalogue" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="category" EntityType="Self.category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="collectionPoint" EntityType="Self.collectionPoint" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="delegation" EntityType="Self.delegation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="deliverOrder" EntityType="Self.deliverOrder" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="deliverOrderDetail" EntityType="Self.deliverOrderDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="department" EntityType="Self.department" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="employee" EntityType="Self.employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="inventory" EntityType="Self.inventory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="inventoryAdj" EntityType="Self.inventoryAdj" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="inventoryAdjDetail" EntityType="Self.inventoryAdjDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="purchaseOrder" EntityType="Self.purchaseOrder" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="purchaseOrderDetail" EntityType="Self.purchaseOrderDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="quotation" EntityType="Self.quotation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="quotationDetail" EntityType="Self.quotationDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="requisition" EntityType="Self.requisition" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="requisitionByDept" EntityType="Self.requisitionByDept" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="requisitionByDeptDetail" EntityType="Self.requisitionByDeptDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="requisitionDetail" EntityType="Self.requisitionDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="role" EntityType="Self.role" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="stockcard" EntityType="Self.stockcard" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="stockLevel" EntityType="Self.stockLevel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="supplier" EntityType="Self.supplier" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="unfulfill" EntityType="Self.unfulfill" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="stationery_inventory_view" EntityType="Self.stationery_inventory_view" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [stationery_inventory_view].[item_code] AS [item_code], 
+    [stationery_inventory_view].[reorder_level] AS [reorder_level], 
+    [stationery_inventory_view].[unit] AS [unit], 
+    [stationery_inventory_view].[name] AS [name], 
+    [stationery_inventory_view].[reorder_quantity] AS [reorder_quantity], 
+    [stationery_inventory_view].[balance] AS [balance], 
+    [stationery_inventory_view].[description] AS [description]
+    FROM [dbo].[stationery_inventory_view] AS [stationery_inventory_view]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="stationery_po_report_view" EntityType="Self.stationery_po_report_view" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [stationery_po_report_view].[po_id] AS [po_id], 
+    [stationery_po_report_view].[item_code] AS [item_code], 
+    [stationery_po_report_view].[catg_id] AS [catg_id], 
+    [stationery_po_report_view].[description] AS [description], 
+    [stationery_po_report_view].[name] AS [name], 
+    [stationery_po_report_view].[quantity] AS [quantity], 
+    [stationery_po_report_view].[price] AS [price], 
+    [stationery_po_report_view].[po_date] AS [po_date], 
+    [stationery_po_report_view].[status] AS [status], 
+    [stationery_po_report_view].[total] AS [total]
+    FROM [dbo].[stationery_po_report_view] AS [stationery_po_report_view]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="stationery_trend_report_view" EntityType="Self.stationery_trend_report_view" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [stationery_trend_report_view].[req_dept_id] AS [req_dept_id], 
+    [stationery_trend_report_view].[dept_id] AS [dept_id], 
+    [stationery_trend_report_view].[req_date] AS [req_date], 
+    [stationery_trend_report_view].[status] AS [status], 
+    [stationery_trend_report_view].[item_code] AS [item_code], 
+    [stationery_trend_report_view].[req_quantity] AS [req_quantity], 
+    [stationery_trend_report_view].[description] AS [description], 
+    [stationery_trend_report_view].[name] AS [name], 
+    [stationery_trend_report_view].[catg_id] AS [catg_id], 
+    [stationery_trend_report_view].[dept_name] AS [dept_name]
+    FROM [dbo].[stationery_trend_report_view] AS [stationery_trend_report_view]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="view_cataloguePrice" EntityType="Self.view_cataloguePrice" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [view_cataloguePrice].[item_code] AS [item_code], 
+    [view_cataloguePrice].[catg_id] AS [catg_id], 
+    [view_cataloguePrice].[description] AS [description], 
+    [view_cataloguePrice].[reorder_level] AS [reorder_level], 
+    [view_cataloguePrice].[reorder_quantity] AS [reorder_quantity], 
+    [view_cataloguePrice].[unit] AS [unit], 
+    [view_cataloguePrice].[price] AS [price], 
+    [view_cataloguePrice].[itemCode] AS [itemCode]
+    FROM [dbo].[view_cataloguePrice] AS [view_cataloguePrice]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="view_poReport" EntityType="Self.view_poReport" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [view_poReport].[po_id] AS [po_id], 
+    [view_poReport].[item_code] AS [item_code], 
+    [view_poReport].[catg_id] AS [catg_id], 
+    [view_poReport].[description] AS [description], 
+    [view_poReport].[name] AS [name], 
+    [view_poReport].[quantity] AS [quantity], 
+    [view_poReport].[price] AS [price], 
+    [view_poReport].[po_date] AS [po_date], 
+    [view_poReport].[status] AS [status], 
+    [view_poReport].[total] AS [total]
+    FROM [dbo].[view_poReport] AS [view_poReport]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_catalogue_category" Association="Self.FK_catalogue_category">
+      <End Role="category" EntitySet="category" />
+      <End Role="catalogue" EntitySet="catalogue" />
+    </AssociationSet>
+    <AssociationSet Name="FK_collectionPoint_employee" Association="Self.FK_collectionPoint_employee">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="collectionPoint" EntitySet="collectionPoint" />
+    </AssociationSet>
+    <AssociationSet Name="FK_delegation_employee" Association="Self.FK_delegation_employee">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="delegation" EntitySet="delegation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_delegation_employee1" Association="Self.FK_delegation_employee1">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="delegation" EntitySet="delegation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_deliverOrder_department" Association="Self.FK_deliverOrder_department">
+      <End Role="department" EntitySet="department" />
+      <End Role="deliverOrder" EntitySet="deliverOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK_deliverOrder_purchaseOrder" Association="Self.FK_deliverOrder_purchaseOrder">
+      <End Role="purchaseOrder" EntitySet="purchaseOrder" />
+      <End Role="deliverOrder" EntitySet="deliverOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK_deliverOrder_supplier" Association="Self.FK_deliverOrder_supplier">
+      <End Role="supplier" EntitySet="supplier" />
+      <End Role="deliverOrder" EntitySet="deliverOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK_deliverOrderDetail_catalogue" Association="Self.FK_deliverOrderDetail_catalogue">
+      <End Role="catalogue" EntitySet="catalogue" />
+      <End Role="deliverOrderDetail" EntitySet="deliverOrderDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_deliverOrderDetail_deliverOrder" Association="Self.FK_deliverOrderDetail_deliverOrder">
+      <End Role="deliverOrder" EntitySet="deliverOrder" />
+      <End Role="deliverOrderDetail" EntitySet="deliverOrderDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_department_collectionPoint" Association="Self.FK_department_collectionPoint">
+      <End Role="collectionPoint" EntitySet="collectionPoint" />
+      <End Role="department" EntitySet="department" />
+    </AssociationSet>
+    <AssociationSet Name="FK_employee_department" Association="Self.FK_employee_department">
+      <End Role="department" EntitySet="department" />
+      <End Role="employee" EntitySet="employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_employee_role" Association="Self.FK_employee_role">
+      <End Role="role" EntitySet="role" />
+      <End Role="employee" EntitySet="employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_inventory_catalogue" Association="Self.FK_inventory_catalogue">
+      <End Role="catalogue" EntitySet="catalogue" />
+      <End Role="inventory" EntitySet="inventory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_inventoryAdj_employee2" Association="Self.FK_inventoryAdj_employee2">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="inventoryAdj" EntitySet="inventoryAdj" />
+    </AssociationSet>
+    <AssociationSet Name="FK_inventoryAdj_employee3" Association="Self.FK_inventoryAdj_employee3">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="inventoryAdj" EntitySet="inventoryAdj" />
+    </AssociationSet>
+    <AssociationSet Name="FK_inventoryAdjDetail_catalogue" Association="Self.FK_inventoryAdjDetail_catalogue">
+      <End Role="catalogue" EntitySet="catalogue" />
+      <End Role="inventoryAdjDetail" EntitySet="inventoryAdjDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_inventoryAdjDetail_inventoryAdj" Association="Self.FK_inventoryAdjDetail_inventoryAdj">
+      <End Role="inventoryAdj" EntitySet="inventoryAdj" />
+      <End Role="inventoryAdjDetail" EntitySet="inventoryAdjDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_purchaseOrder_supplier" Association="Self.FK_purchaseOrder_supplier">
+      <End Role="supplier" EntitySet="supplier" />
+      <End Role="purchaseOrder" EntitySet="purchaseOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK_purchaseOrderDetail_catalogue" Association="Self.FK_purchaseOrderDetail_catalogue">
+      <End Role="catalogue" EntitySet="catalogue" />
+      <End Role="purchaseOrderDetail" EntitySet="purchaseOrderDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_purchaseOrderDetail_purchaseOrder" Association="Self.FK_purchaseOrderDetail_purchaseOrder">
+      <End Role="purchaseOrder" EntitySet="purchaseOrder" />
+      <End Role="purchaseOrderDetail" EntitySet="purchaseOrderDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_quotation_supplier" Association="Self.FK_quotation_supplier">
+      <End Role="supplier" EntitySet="supplier" />
+      <End Role="quotation" EntitySet="quotation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_quotationDetail_catalogue" Association="Self.FK_quotationDetail_catalogue">
+      <End Role="catalogue" EntitySet="catalogue" />
+      <End Role="quotationDetail" EntitySet="quotationDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_quotationDetail_quotation" Association="Self.FK_quotationDetail_quotation">
+      <End Role="quotation" EntitySet="quotation" />
+      <End Role="quotationDetail" EntitySet="quotationDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_requisition_department" Association="Self.FK_requisition_department">
+      <End Role="department" EntitySet="department" />
+      <End Role="requisition" EntitySet="requisition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_requisition_employee" Association="Self.FK_requisition_employee">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="requisition" EntitySet="requisition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_requisition_employee1" Association="Self.FK_requisition_employee1">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="requisition" EntitySet="requisition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_requisition_employee2" Association="Self.FK_requisition_employee2">
+      <End Role="employee" EntitySet="employee" />
+      <End Role="requisition" EntitySet="requisition" />
+    </AssociationSet>
+    <AssociationSet Name="FK_requisitionByDept_department" Association="Self.FK_requisitionByDept_department">
+      <End Role="department" EntitySet="department" />
+      <End Role="requisitionByDept" EntitySet="requisitionByDept" />
+    </AssociationSet>
+    <AssociationSet Name="FK_requisitionByDeptDetail_catalogue" Association="Self.FK_requisitionByDeptDetail_catalogue">
+      <End Role="catalogue" EntitySet="catalogue" />
+      <End Role="requisitionByDeptDetail" EntitySet="requisitionByDeptDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_requisitionByDeptDetail_requisitionByDept" Association="Self.FK_requisitionByDeptDetail_requisitionByDept">
+      <End Role="requisitionByDept" EntitySet="requisitionByDept" />
+      <End Role="requisitionByDeptDetail" EntitySet="requisitionByDeptDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_requisitionDetail_catalogue" Association="Self.FK_requisitionDetail_catalogue">
+      <End Role="catalogue" EntitySet="catalogue" />
+      <End Role="requisitionDetail" EntitySet="requisitionDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_requisitionDetail_requisition" Association="Self.FK_requisitionDetail_requisition">
+      <End Role="requisition" EntitySet="requisition" />
+      <End Role="requisitionDetail" EntitySet="requisitionDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stockcard_catalogue" Association="Self.FK_stockcard_catalogue">
+      <End Role="catalogue" EntitySet="catalogue" />
+      <End Role="stockcard" EntitySet="stockcard" />
+    </AssociationSet>
+    <AssociationSet Name="FK_stockLevel_catalogue" Association="Self.FK_stockLevel_catalogue">
+      <End Role="catalogue" EntitySet="catalogue" />
+      <End Role="stockLevel" EntitySet="stockLevel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_unfufil_catalogue" Association="Self.FK_unfufil_catalogue">
+      <End Role="catalogue" EntitySet="catalogue" />
+      <End Role="unfulfill" EntitySet="unfulfill" />
+    </AssociationSet>
+    <AssociationSet Name="FK_unfufil_department" Association="Self.FK_unfufil_department">
+      <End Role="department" EntitySet="department" />
+      <End Role="unfulfill" EntitySet="unfulfill" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

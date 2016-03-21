@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/master_page/MasterPage.Master" AutoEventWireup="true" CodeBehind="clerk.master.cs" Inherits="logicuniversity.master_page.clerk" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="main_body" Runat="Server">
+    <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+
+                    <li>
+                        
+                          <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Views/RetrieveStationeries.aspx"> <i class="fa fa-desktop"></i> Retrieve Stationeries</asp:HyperLink>
+                    
+                    </li>
+                  
+					<li>
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Views/UpdateStockCard_1.aspx"><i class="fa fa-bar-chart-o"></i> View Stock Card</asp:HyperLink>
+                    </li>
+                    <li>
+                         <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Views/view_stocklevel.aspx"><i class="fa fa-qrcode"></i> View Low Stock</asp:HyperLink>
+                    </li>
+                    
+                    <li>
+                       <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Views/DiscrepancyReport.aspx"><i class="fa fa-table"></i> Generate Discrepancy Report</asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Views/makepurchaseorder.aspx"><i class="fa fa-edit"></i> Make Purchase Order</asp:HyperLink>
+                    </li>
+
+                    <li>
+                        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Views/ViewRejectItems.aspx"><i class="fa fa-qrcode"></i> View Rejected Items</asp:HyperLink>
+                    </li>
+                    
+                    <li>
+                         <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Views/ViewDeliveryOrder.aspx"><i class="fa fa-table"></i> Receive Delivery</asp:HyperLink>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+    <div id="page-wrapper">
+            <div id="page-inner">
+                <asp:ContentPlaceHolder id="body" runat="server">    
+            
+                </asp:ContentPlaceHolder> 
+            </div>
+        </div> 
+</asp:Content>
+

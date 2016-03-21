@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/master_page/MasterPage.Master" AutoEventWireup="true" CodeBehind="representative.master.cs" Inherits="logicuniversity.master_page.representative" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="main_body" Runat="Server">
+    <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+
+                    <li>
+                    
+
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Views/ViewReceiveList.aspx"> <i class="fa fa-thumbs-o-up"></i> Receive Stationeries</asp:HyperLink>
+                         <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Views/MakeRequisition.aspx"> <i class="fa fa-hand-lizard-o "></i> Make Requisition</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Views/ViewRequisitionList.aspx"> <i class="fa fa-history"></i> Requisition History</asp:HyperLink>
+                            <!-- <asp:HyperLink ID="ChangeRole" runat="server" NavigateUrl="~/Views/Change_role.aspx"><i class ="fa fa-desktop"></i> Change Role </asp:HyperLink> -->
+                      
+                    </li>
+                    
+                </ul>
+
+            </div>
+
+        </nav>
+    <div id="page-wrapper">
+            <div id="page-inner">
+                <asp:ContentPlaceHolder id="body" runat="server">    
+            
+                </asp:ContentPlaceHolder> 
+            </div>
+        </div>
+</asp:Content>

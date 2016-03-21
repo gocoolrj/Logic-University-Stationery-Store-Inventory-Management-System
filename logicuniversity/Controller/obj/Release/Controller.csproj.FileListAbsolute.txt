@@ -1,0 +1,88 @@
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Controller.dll.config
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Controller.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Controller.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\DAO.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Entity.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\EntityFramework.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Newtonsoft.Json.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Owin.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Quartz.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Common.Logging.Core.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Common.Logging.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\DAO.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Entity.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\EntityFramework.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Newtonsoft.Json.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Quartz.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Quartz.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Common.Logging.Core.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Common.Logging.Core.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Common.Logging.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Common.Logging.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\obj\Release\Controller.csprojResolveAssemblyReference.cache
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\obj\Release\Controller.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\obj\Release\Controller.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Facebook.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Google.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Twitter.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Facebook.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Google.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Twitter.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Controller.dll.config
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Controller.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Controller.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\DAO.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Entity.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\EntityFramework.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\EntityFramework.SqlServer.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Host.SystemWeb.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Facebook.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Google.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Twitter.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Newtonsoft.Json.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Owin.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Quartz.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Common.Logging.Core.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Common.Logging.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\DAO.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Entity.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\EntityFramework.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\EntityFramework.SqlServer.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Host.SystemWeb.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Facebook.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Google.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Microsoft.Owin.Security.Twitter.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Newtonsoft.Json.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Quartz.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Quartz.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Common.Logging.Core.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Common.Logging.Core.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Common.Logging.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\bin\Release\Common.Logging.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\obj\Release\Controller.csprojResolveAssemblyReference.cache
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\obj\Release\Controller.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Controller\obj\Release\Controller.pdb

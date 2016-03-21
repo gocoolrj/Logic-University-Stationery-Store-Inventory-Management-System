@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StationeryDBModelStoreContainer" CdmEntityContainer="StationeryDBEntities">
+    <EntitySetMapping Name="catalogues">
+      <EntityTypeMapping TypeName="StationeryDBModel.catalogue">
+        <MappingFragment StoreEntitySet="catalogue">
+          <ScalarProperty Name="item_code" ColumnName="item_code" />
+          <ScalarProperty Name="catg_id" ColumnName="catg_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="reorder_level" ColumnName="reorder_level" />
+          <ScalarProperty Name="reorder_quantity" ColumnName="reorder_quantity" />
+          <ScalarProperty Name="unit" ColumnName="unit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="categories">
+      <EntityTypeMapping TypeName="StationeryDBModel.category">
+        <MappingFragment StoreEntitySet="category">
+          <ScalarProperty Name="catg_id" ColumnName="catg_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="collectionPoints">
+      <EntityTypeMapping TypeName="StationeryDBModel.collectionPoint">
+        <MappingFragment StoreEntitySet="collectionPoint">
+          <ScalarProperty Name="col_id" ColumnName="col_id" />
+          <ScalarProperty Name="clerk_emp_id" ColumnName="clerk_emp_id" />
+          <ScalarProperty Name="col_location" ColumnName="col_location" />
+          <ScalarProperty Name="col_date" ColumnName="col_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="delegations">
+      <EntityTypeMapping TypeName="StationeryDBModel.delegation">
+        <MappingFragment StoreEntitySet="delegation">
+          <ScalarProperty Name="del_id" ColumnName="del_id" />
+          <ScalarProperty Name="head_id" ColumnName="head_id" />
+          <ScalarProperty Name="emp_id" ColumnName="emp_id" />
+          <ScalarProperty Name="start_date" ColumnName="start_date" />
+          <ScalarProperty Name="end_date" ColumnName="end_date" />
+          <ScalarProperty Name="reason" ColumnName="reason" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="deliverOrders">
+      <EntityTypeMapping TypeName="StationeryDBModel.deliverOrder">
+        <MappingFragment StoreEntitySet="deliverOrder">
+          <ScalarProperty Name="do_id" ColumnName="do_id" />
+          <ScalarProperty Name="po_id" ColumnName="po_id" />
+          <ScalarProperty Name="sup_code" ColumnName="sup_code" />
+          <ScalarProperty Name="do_date" ColumnName="do_date" />
+          <ScalarProperty Name="dept_id" ColumnName="dept_id" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="deliverOrderDetails">
+      <EntityTypeMapping TypeName="StationeryDBModel.deliverOrderDetail">
+        <MappingFragment StoreEntitySet="deliverOrderDetail">
+          <ScalarProperty Name="do_id" ColumnName="do_id" />
+          <ScalarProperty Name="item_code" ColumnName="item_code" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="departments">
+      <EntityTypeMapping TypeName="StationeryDBModel.department">
+        <MappingFragment StoreEntitySet="department">
+          <ScalarProperty Name="dept_id" ColumnName="dept_id" />
+          <ScalarProperty Name="dept_code" ColumnName="dept_code" />
+          <ScalarProperty Name="dept_name" ColumnName="dept_name" />
+          <ScalarProperty Name="dept_phone" ColumnName="dept_phone" />
+          <ScalarProperty Name="dept_fax" ColumnName="dept_fax" />
+          <ScalarProperty Name="col_id" ColumnName="col_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="employees">
+      <EntityTypeMapping TypeName="StationeryDBModel.employee">
+        <MappingFragment StoreEntitySet="employee">
+          <ScalarProperty Name="emp_id" ColumnName="emp_id" />
+          <ScalarProperty Name="emp_name" ColumnName="emp_name" />
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+          <ScalarProperty Name="dept_id" ColumnName="dept_id" />
+          <ScalarProperty Name="emp_email" ColumnName="emp_email" />
+          <ScalarProperty Name="emp_password" ColumnName="emp_password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="inventories">
+      <EntityTypeMapping TypeName="StationeryDBModel.inventory">
+        <MappingFragment StoreEntitySet="inventory">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="item_code" ColumnName="item_code" />
+          <ScalarProperty Name="bin" ColumnName="bin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="inventoryAdjs">
+      <EntityTypeMapping TypeName="StationeryDBModel.inventoryAdj">
+        <MappingFragment StoreEntitySet="inventoryAdj">
+          <ScalarProperty Name="voucher_id" ColumnName="voucher_id" />
+          <ScalarProperty Name="date_issue" ColumnName="date_issue" />
+          <ScalarProperty Name="emp_supervisor_id" ColumnName="emp_supervisor_id" />
+          <ScalarProperty Name="emp_auth_id" ColumnName="emp_auth_id" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="total" ColumnName="total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="inventoryAdjDetails">
+      <EntityTypeMapping TypeName="StationeryDBModel.inventoryAdjDetail">
+        <MappingFragment StoreEntitySet="inventoryAdjDetail">
+          <ScalarProperty Name="voucher_id" ColumnName="voucher_id" />
+          <ScalarProperty Name="item_code" ColumnName="item_code" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="reason" ColumnName="reason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="purchaseOrders">
+      <EntityTypeMapping TypeName="StationeryDBModel.purchaseOrder">
+        <MappingFragment StoreEntitySet="purchaseOrder">
+          <ScalarProperty Name="po_id" ColumnName="po_id" />
+          <ScalarProperty Name="sup_code" ColumnName="sup_code" />
+          <ScalarProperty Name="po_date" ColumnName="po_date" />
+          <ScalarProperty Name="po_duedate" ColumnName="po_duedate" />
+          <ScalarProperty Name="po_approvedate" ColumnName="po_approvedate" />
+          <ScalarProperty Name="net_amount" ColumnName="net_amount" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="deliver_status" ColumnName="deliver_status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="purchaseOrderDetails">
+      <EntityTypeMapping TypeName="StationeryDBModel.purchaseOrderDetail">
+        <MappingFragment StoreEntitySet="purchaseOrderDetail">
+          <ScalarProperty Name="po_id" ColumnName="po_id" />
+          <ScalarProperty Name="item_code" ColumnName="item_code" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="quotations">
+      <EntityTypeMapping TypeName="StationeryDBModel.quotation">
+        <MappingFragment StoreEntitySet="quotation">
+          <ScalarProperty Name="quo_id" ColumnName="quo_id" />
+          <ScalarProperty Name="sup_code" ColumnName="sup_code" />
+          <ScalarProperty Name="year" ColumnName="year" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="quotationDetails">
+      <EntityTypeMapping TypeName="StationeryDBModel.quotationDetail">
+        <MappingFragment StoreEntitySet="quotationDetail">
+          <ScalarProperty Name="quo_id" ColumnName="quo_id" />
+          <ScalarProperty Name="itemCode" ColumnName="itemCode" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="requisitions">
+      <EntityTypeMapping TypeName="StationeryDBModel.requisition">
+        <MappingFragment StoreEntitySet="requisition">
+          <ScalarProperty Name="req_id" ColumnName="req_id" />
+          <ScalarProperty Name="dept_id" ColumnName="dept_id" />
+          <ScalarProperty Name="req_emp_id" ColumnName="req_emp_id" />
+          <ScalarProperty Name="req_date" ColumnName="req_date" />
+          <ScalarProperty Name="approve_date" ColumnName="approve_date" />
+          <ScalarProperty Name="approve_emp_id" ColumnName="approve_emp_id" />
+          <ScalarProperty Name="received_emp_id" ColumnName="received_emp_id" />
+          <ScalarProperty Name="received_date" ColumnName="received_date" />
+          <ScalarProperty Name="req_status" ColumnName="req_status" />
+          <ScalarProperty Name="req_reason" ColumnName="req_reason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="requisitionByDepts">
+      <EntityTypeMapping TypeName="StationeryDBModel.requisitionByDept">
+        <MappingFragment StoreEntitySet="requisitionByDept">
+          <ScalarProperty Name="req_dept_id" ColumnName="req_dept_id" />
+          <ScalarProperty Name="dept_id" ColumnName="dept_id" />
+          <ScalarProperty Name="req_date" ColumnName="req_date" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="requisitionByDeptDetails">
+      <EntityTypeMapping TypeName="StationeryDBModel.requisitionByDeptDetail">
+        <MappingFragment StoreEntitySet="requisitionByDeptDetail">
+          <ScalarProperty Name="req_dept_id" ColumnName="req_dept_id" />
+          <ScalarProperty Name="item_code" ColumnName="item_code" />
+          <ScalarProperty Name="req_quantity" ColumnName="req_quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="requisitionDetails">
+      <EntityTypeMapping TypeName="StationeryDBModel.requisitionDetail">
+        <MappingFragment StoreEntitySet="requisitionDetail">
+          <ScalarProperty Name="req_id" ColumnName="req_id" />
+          <ScalarProperty Name="item_code" ColumnName="item_code" />
+          <ScalarProperty Name="req_quantity" ColumnName="req_quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="roles">
+      <EntityTypeMapping TypeName="StationeryDBModel.role">
+        <MappingFragment StoreEntitySet="role">
+          <ScalarProperty Name="role_id" ColumnName="role_id" />
+          <ScalarProperty Name="role1" ColumnName="role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stockcards">
+      <EntityTypeMapping TypeName="StationeryDBModel.stockcard">
+        <MappingFragment StoreEntitySet="stockcard">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="item_code" ColumnName="item_code" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stockLevels">
+      <EntityTypeMapping TypeName="StationeryDBModel.stockLevel">
+        <MappingFragment StoreEntitySet="stockLevel">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="item_code" ColumnName="item_code" />
+          <ScalarProperty Name="balance" ColumnName="balance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="suppliers">
+      <EntityTypeMapping TypeName="StationeryDBModel.supplier">
+        <MappingFragment StoreEntitySet="supplier">
+          <ScalarProperty Name="sup_code" ColumnName="sup_code" />
+          <ScalarProperty Name="sup_name" ColumnName="sup_name" />
+          <ScalarProperty Name="contact_name" ColumnName="contact_name" />
+          <ScalarProperty Name="sup_phone" ColumnName="sup_phone" />
+          <ScalarProperty Name="sup_fax" ColumnName="sup_fax" />
+          <ScalarProperty Name="sup_address" ColumnName="sup_address" />
+          <ScalarProperty Name="sup_gst" ColumnName="sup_gst" />
+          <ScalarProperty Name="sup_status" ColumnName="sup_status" />
+          <ScalarProperty Name="sup_rank" ColumnName="sup_rank" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="StationeryDBModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="unfulfills">
+      <EntityTypeMapping TypeName="StationeryDBModel.unfulfill">
+        <MappingFragment StoreEntitySet="unfulfill">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="item_code" ColumnName="item_code" />
+          <ScalarProperty Name="dept_id" ColumnName="dept_id" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="unfufil_date" ColumnName="unfufil_date" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="ref" ColumnName="ref" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stationery_inventory_view">
+      <EntityTypeMapping TypeName="StationeryDBModel.stationery_inventory_view">
+        <MappingFragment StoreEntitySet="stationery_inventory_view">
+          <ScalarProperty Name="item_code" ColumnName="item_code" />
+          <ScalarProperty Name="reorder_level" ColumnName="reorder_level" />
+          <ScalarProperty Name="unit" ColumnName="unit" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="reorder_quantity" ColumnName="reorder_quantity" />
+          <ScalarProperty Name="balance" ColumnName="balance" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stationery_po_report_view">
+      <EntityTypeMapping TypeName="StationeryDBModel.stationery_po_report_view">
+        <MappingFragment StoreEntitySet="stationery_po_report_view">
+          <ScalarProperty Name="po_id" ColumnName="po_id" />
+          <ScalarProperty Name="item_code" ColumnName="item_code" />
+          <ScalarProperty Name="catg_id" ColumnName="catg_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="po_date" ColumnName="po_date" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="total" ColumnName="total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="stationery_trend_report_view">
+      <EntityTypeMapping TypeName="StationeryDBModel.stationery_trend_report_view">
+        <MappingFragment StoreEntitySet="stationery_trend_report_view">
+          <ScalarProperty Name="req_dept_id" ColumnName="req_dept_id" />
+          <ScalarProperty Name="dept_id" ColumnName="dept_id" />
+          <ScalarProperty Name="req_date" ColumnName="req_date" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="item_code" ColumnName="item_code" />
+          <ScalarProperty Name="req_quantity" ColumnName="req_quantity" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="catg_id" ColumnName="catg_id" />
+          <ScalarProperty Name="dept_name" ColumnName="dept_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_cataloguePrice">
+      <EntityTypeMapping TypeName="StationeryDBModel.view_cataloguePrice">
+        <MappingFragment StoreEntitySet="view_cataloguePrice">
+          <ScalarProperty Name="item_code" ColumnName="item_code" />
+          <ScalarProperty Name="catg_id" ColumnName="catg_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="reorder_level" ColumnName="reorder_level" />
+          <ScalarProperty Name="reorder_quantity" ColumnName="reorder_quantity" />
+          <ScalarProperty Name="unit" ColumnName="unit" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="itemCode" ColumnName="itemCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="view_poReport">
+      <EntityTypeMapping TypeName="StationeryDBModel.view_poReport">
+        <MappingFragment StoreEntitySet="view_poReport">
+          <ScalarProperty Name="po_id" ColumnName="po_id" />
+          <ScalarProperty Name="item_code" ColumnName="item_code" />
+          <ScalarProperty Name="catg_id" ColumnName="catg_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="po_date" ColumnName="po_date" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="total" ColumnName="total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

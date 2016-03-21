@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/master_page/MasterPage.Master" AutoEventWireup="true" CodeBehind="employee.master.cs" Inherits="logicuniversity.master_page.NestedMasterPage1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="main_body" Runat="Server">
+    <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+
+                    <li>
+                        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Views/MakeRequisition.aspx"> <i class="fa fa-desktop"></i> Make Requisition</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Views/ViewRequisitionList.aspx"> <i class="fa fa-desktop"></i> Requisition History</asp:HyperLink>
+                       
+                        
+                    
+                    </li>
+                    
+                </ul>
+
+            </div>
+
+        </nav>
+        <div id="page-wrapper">
+            <div id="page-inner">
+                <asp:ContentPlaceHolder id="body" runat="server">    
+            
+                </asp:ContentPlaceHolder> 
+            </div>
+        </div>       
+</asp:Content>

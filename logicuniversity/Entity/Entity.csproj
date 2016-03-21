@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{91F9C1CC-B12B-4805-A35E-D60CD720CC67}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entity</RootNamespace>
+    <AssemblyName>Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.PowerShell">
+      <HintPath>..\packages\EntityFramework.6.1.0\tools\EntityFramework.PowerShell.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.PowerShell.Utility">
+      <HintPath>..\packages\EntityFramework.6.1.0\tools\EntityFramework.PowerShell.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Core, Version=1.6.30117.9648, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADOModel.Context.cs">
+      <DependentUpon>ADOModel.Context.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ADOModel.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ADOModel.Designer.cs">
+      <DependentUpon>ADOModel.edmx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="catalogue.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="category.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="collectionPoint.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="delegation.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="deliverOrder.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="deliverOrderDetail.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="department.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="employee.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="inventory.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryAdj.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryAdjDetail.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="purchaseOrder.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="purchaseOrderDetail.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="quotation.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="quotationDetail.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="requisition.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="requisitionByDept.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="requisitionByDeptDetail.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="requisitionDetail.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="role.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stationery_inventory_view.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stationery_po_report_view.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stationery_trend_report_view.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stockcard.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="stockLevel.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="supplier.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="unfulfill.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="view_cataloguePrice.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="view_poReport.cs">
+      <DependentUpon>ADOModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="ADOModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ADOModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ADOModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ADOModel.edmx</DependentUpon>
+      <LastGenOutput>ADOModel.Context.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ADOModel.edmx.diagram">
+      <DependentUpon>ADOModel.edmx</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ADOModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ADOModel.edmx</DependentUpon>
+      <LastGenOutput>ADOModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

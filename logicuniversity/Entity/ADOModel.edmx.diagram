@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5797026360ca42c2922d3c2bc073945e" Name="Diagram1">
+        <EntityTypeShape EntityType="StationeryDBModel.catalogue" Width="1.5" PointX="3" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.category" Width="1.5" PointX="0.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.collectionPoint" Width="1.5" PointX="1.5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.delegation" Width="1.5" PointX="3.75" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.deliverOrder" Width="1.5" PointX="3" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.deliverOrderDetail" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.department" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.employee" Width="1.5" PointX="1.5" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.inventory" Width="1.5" PointX="5.25" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.inventoryAdj" Width="1.5" PointX="3" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.inventoryAdjDetail" Width="1.5" PointX="5.25" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.purchaseOrder" Width="1.5" PointX="0.75" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.purchaseOrderDetail" Width="1.5" PointX="8.25" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.quotation" Width="1.5" PointX="6" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.quotationDetail" Width="1.5" PointX="8.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.requisition" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.requisitionByDept" Width="1.5" PointX="6" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.requisitionByDeptDetail" Width="1.5" PointX="8.25" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.requisitionDetail" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.role" Width="1.5" PointX="1.5" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.stockcard" Width="1.5" PointX="5.25" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.stockLevel" Width="1.5" PointX="5.25" PointY="33.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.supplier" Width="1.5" PointX="1.5" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.sysdiagram" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.unfulfill" Width="1.5" PointX="10.5" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.stationery_inventory_view" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.stationery_po_report_view" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.stationery_trend_report_view" Width="1.5" PointX="8.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.view_cataloguePrice" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StationeryDBModel.view_poReport" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="StationeryDBModel.FK_catalogue_category" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_deliverOrderDetail_catalogue" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_inventory_catalogue" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_inventoryAdjDetail_catalogue" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_purchaseOrderDetail_catalogue" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_quotationDetail_catalogue" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_requisitionByDeptDetail_catalogue" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_requisitionDetail_catalogue" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_stockcard_catalogue" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_stockLevel_catalogue" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_unfufil_catalogue" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_collectionPoint_employee" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_department_collectionPoint" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_delegation_employee" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_delegation_employee1" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_deliverOrder_department" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_deliverOrder_purchaseOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_deliverOrder_supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_deliverOrderDetail_deliverOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_employee_department" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_requisition_department" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_requisitionByDept_department" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_unfufil_department" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_employee_role" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_inventoryAdj_employee2" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_inventoryAdj_employee3" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_requisition_employee" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_requisition_employee1" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_requisition_employee2" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_inventoryAdjDetail_inventoryAdj" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_purchaseOrder_supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_purchaseOrderDetail_purchaseOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_unfulfill_purchaseOrderDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_quotation_supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_quotationDetail_quotation" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_requisitionDetail_requisition" ManuallyRouted="false" />
+        <AssociationConnector Association="StationeryDBModel.FK_requisitionByDeptDetail_requisitionByDept" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

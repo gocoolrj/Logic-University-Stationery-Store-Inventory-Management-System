@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportAll" targetNamespace="http://tempuri.org/ReportAll.xsd" xmlns:mstns="http://tempuri.org/ReportAll.xsd" xmlns="http://tempuri.org/ReportAll.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="StationeryDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="StationeryDBConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.StationeryDBConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="stationery_trend_report_viewTableAdapter" GeneratorDataComponentClassName="stationery_trend_report_viewTableAdapter" Name="stationery_trend_report_view" UserDataComponentName="stationery_trend_report_viewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="StationeryDBConnectionString (Web.config)" DbObjectName="StationeryDB.dbo.stationery_trend_report_view" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT req_dept_id, dept_id, req_date, status, item_code, req_quantity, description, name, catg_id, Amount, dept_name, OrderMonth FROM dbo.stationery_trend_report_view</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="req_dept_id" DataSetColumn="req_dept_id" />
+              <Mapping SourceColumn="dept_id" DataSetColumn="dept_id" />
+              <Mapping SourceColumn="req_date" DataSetColumn="req_date" />
+              <Mapping SourceColumn="status" DataSetColumn="status" />
+              <Mapping SourceColumn="item_code" DataSetColumn="item_code" />
+              <Mapping SourceColumn="req_quantity" DataSetColumn="req_quantity" />
+              <Mapping SourceColumn="description" DataSetColumn="description" />
+              <Mapping SourceColumn="name" DataSetColumn="name" />
+              <Mapping SourceColumn="catg_id" DataSetColumn="catg_id" />
+              <Mapping SourceColumn="Amount" DataSetColumn="Amount" />
+              <Mapping SourceColumn="dept_name" DataSetColumn="dept_name" />
+              <Mapping SourceColumn="OrderMonth" DataSetColumn="OrderMonth" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="stationery_po_report_viewTableAdapter" GeneratorDataComponentClassName="stationery_po_report_viewTableAdapter" Name="stationery_po_report_view" UserDataComponentName="stationery_po_report_viewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="StationeryDBConnectionString (Web.config)" DbObjectName="StationeryDB.dbo.stationery_po_report_view" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT po_id, item_code, catg_id, description, name, quantity, price, po_date, status, total FROM dbo.stationery_po_report_view</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="po_id" DataSetColumn="po_id" />
+              <Mapping SourceColumn="item_code" DataSetColumn="item_code" />
+              <Mapping SourceColumn="catg_id" DataSetColumn="catg_id" />
+              <Mapping SourceColumn="description" DataSetColumn="description" />
+              <Mapping SourceColumn="name" DataSetColumn="name" />
+              <Mapping SourceColumn="quantity" DataSetColumn="quantity" />
+              <Mapping SourceColumn="price" DataSetColumn="price" />
+              <Mapping SourceColumn="po_date" DataSetColumn="po_date" />
+              <Mapping SourceColumn="status" DataSetColumn="status" />
+              <Mapping SourceColumn="total" DataSetColumn="total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportAll" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ReportAll" msprop:Generator_UserDSName="ReportAll">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="stationery_trend_report_view" msprop:Generator_TableClassName="stationery_trend_report_viewDataTable" msprop:Generator_TableVarName="tablestationery_trend_report_view" msprop:Generator_TablePropName="stationery_trend_report_view" msprop:Generator_RowDeletingName="stationery_trend_report_viewRowDeleting" msprop:Generator_RowChangingName="stationery_trend_report_viewRowChanging" msprop:Generator_RowEvHandlerName="stationery_trend_report_viewRowChangeEventHandler" msprop:Generator_RowDeletedName="stationery_trend_report_viewRowDeleted" msprop:Generator_UserTableName="stationery_trend_report_view" msprop:Generator_RowChangedName="stationery_trend_report_viewRowChanged" msprop:Generator_RowEvArgName="stationery_trend_report_viewRowChangeEvent" msprop:Generator_RowClassName="stationery_trend_report_viewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="req_dept_id" msprop:Generator_ColumnVarNameInTable="columnreq_dept_id" msprop:Generator_ColumnPropNameInRow="req_dept_id" msprop:Generator_ColumnPropNameInTable="req_dept_idColumn" msprop:Generator_UserColumnName="req_dept_id" type="xs:int" />
+              <xs:element name="dept_id" msprop:Generator_ColumnVarNameInTable="columndept_id" msprop:Generator_ColumnPropNameInRow="dept_id" msprop:Generator_ColumnPropNameInTable="dept_idColumn" msprop:Generator_UserColumnName="dept_id" type="xs:int" minOccurs="0" />
+              <xs:element name="req_date" msprop:Generator_ColumnVarNameInTable="columnreq_date" msprop:Generator_ColumnPropNameInRow="req_date" msprop:Generator_ColumnPropNameInTable="req_dateColumn" msprop:Generator_UserColumnName="req_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="item_code" msprop:Generator_ColumnVarNameInTable="columnitem_code" msprop:Generator_ColumnPropNameInRow="item_code" msprop:Generator_ColumnPropNameInTable="item_codeColumn" msprop:Generator_UserColumnName="item_code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="req_quantity" msprop:Generator_ColumnVarNameInTable="columnreq_quantity" msprop:Generator_ColumnPropNameInRow="req_quantity" msprop:Generator_ColumnPropNameInTable="req_quantityColumn" msprop:Generator_UserColumnName="req_quantity" type="xs:int" minOccurs="0" />
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="catg_id" msprop:Generator_ColumnVarNameInTable="columncatg_id" msprop:Generator_ColumnPropNameInRow="catg_id" msprop:Generator_ColumnPropNameInTable="catg_idColumn" msprop:Generator_UserColumnName="catg_id" type="xs:int" />
+              <xs:element name="Amount" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" msprop:Generator_UserColumnName="Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="dept_name" msprop:Generator_ColumnVarNameInTable="columndept_name" msprop:Generator_ColumnPropNameInRow="dept_name" msprop:Generator_ColumnPropNameInTable="dept_nameColumn" msprop:Generator_UserColumnName="dept_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OrderMonth" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnOrderMonth" msprop:Generator_ColumnPropNameInRow="OrderMonth" msprop:Generator_ColumnPropNameInTable="OrderMonthColumn" msprop:Generator_UserColumnName="OrderMonth" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="stationery_po_report_view" msprop:Generator_TableClassName="stationery_po_report_viewDataTable" msprop:Generator_TableVarName="tablestationery_po_report_view" msprop:Generator_TablePropName="stationery_po_report_view" msprop:Generator_RowDeletingName="stationery_po_report_viewRowDeleting" msprop:Generator_RowChangingName="stationery_po_report_viewRowChanging" msprop:Generator_RowEvHandlerName="stationery_po_report_viewRowChangeEventHandler" msprop:Generator_RowDeletedName="stationery_po_report_viewRowDeleted" msprop:Generator_UserTableName="stationery_po_report_view" msprop:Generator_RowChangedName="stationery_po_report_viewRowChanged" msprop:Generator_RowEvArgName="stationery_po_report_viewRowChangeEvent" msprop:Generator_RowClassName="stationery_po_report_viewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="po_id" msprop:Generator_ColumnVarNameInTable="columnpo_id" msprop:Generator_ColumnPropNameInRow="po_id" msprop:Generator_ColumnPropNameInTable="po_idColumn" msprop:Generator_UserColumnName="po_id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="item_code" msprop:Generator_ColumnVarNameInTable="columnitem_code" msprop:Generator_ColumnPropNameInRow="item_code" msprop:Generator_ColumnPropNameInTable="item_codeColumn" msprop:Generator_UserColumnName="item_code">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="catg_id" msprop:Generator_ColumnVarNameInTable="columncatg_id" msprop:Generator_ColumnPropNameInRow="catg_id" msprop:Generator_ColumnPropNameInTable="catg_idColumn" msprop:Generator_UserColumnName="catg_id" type="xs:int" />
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="quantity" msprop:Generator_ColumnVarNameInTable="columnquantity" msprop:Generator_ColumnPropNameInRow="quantity" msprop:Generator_ColumnPropNameInTable="quantityColumn" msprop:Generator_UserColumnName="quantity" type="xs:int" minOccurs="0" />
+              <xs:element name="price" msprop:Generator_ColumnVarNameInTable="columnprice" msprop:Generator_ColumnPropNameInRow="price" msprop:Generator_ColumnPropNameInTable="priceColumn" msprop:Generator_UserColumnName="price" type="xs:decimal" minOccurs="0" />
+              <xs:element name="po_date" msprop:Generator_ColumnVarNameInTable="columnpo_date" msprop:Generator_ColumnPropNameInRow="po_date" msprop:Generator_ColumnPropNameInTable="po_dateColumn" msprop:Generator_UserColumnName="po_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="total" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:stationery_po_report_view" />
+      <xs:field xpath="mstns:po_id" />
+      <xs:field xpath="mstns:item_code" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

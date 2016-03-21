@@ -1,0 +1,603 @@
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.dll.config
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.pdb
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Antlr3.Runtime.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.jQuery.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Newtonsoft.Json.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Owin.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Helpers.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Mvc.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Optimization.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Providers.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Razor.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\WebGrease.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.pdb
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.pdb
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.pdb
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Optimization.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Antlr3.Runtime.pdb
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Newtonsoft.Json.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Razor.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Helpers.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Mvc.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.dll
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.pdb
+D:\Web Project Integration\logicuniversity_KZT_KS\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.csprojResolveAssemblyReference.cache
+D:\ADprojectFiles\Kaung Zay Thu\SA-39 AD Team-2\Web Application\logicuniversity\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.csprojResolveAssemblyReference.cache
+D:\ADprojectFiles\Kaung Zay Thu\SA-39 AD Team-2\Web Application\logicuniversity\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.dll
+D:\ADprojectFiles\Kaung Zay Thu\SA-39 AD Team-2\Web Application\logicuniversity\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.pdb
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.csprojResolveAssemblyReference.cache
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.pdb
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.dll.config
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.pdb
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Antlr3.Runtime.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.bootstrap.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.jQuery.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.WebForms.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Newtonsoft.Json.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Owin.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Helpers.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Mvc.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Optimization.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Providers.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Razor.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\WebGrease.dll
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.pdb
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.pdb
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.pdb
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Optimization.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Antlr3.Runtime.pdb
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Newtonsoft.Json.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Razor.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Helpers.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Mvc.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\logicuniversity.dll.config
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\logicuniversity.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\logicuniversity.pdb
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Antlr3.Runtime.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Common.Logging.Core.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Common.Logging.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\EntityFramework.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Newtonsoft.Json.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Owin.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Quartz.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\System.Web.Helpers.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\System.Web.Optimization.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\System.Web.Providers.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\System.Web.Razor.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\System.Web.Webpages.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\WebGrease.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Common.Logging.pdb
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Common.Logging.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Common.Logging.Core.pdb
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Common.Logging.Core.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\EntityFramework.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Quartz.pdb
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Quartz.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\System.Web.Optimization.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Antlr3.Runtime.pdb
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Newtonsoft.Json.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\System.Web.Razor.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\System.Web.Webpages.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\System.Web.Helpers.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\obj\Debug\logicuniversity.csprojResolveAssemblyReference.cache
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\obj\Debug\logicuniversity.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\obj\Debug\logicuniversity.pdb
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Entity.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Entity.pdb
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\DAO.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\DAO.pdb
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Controller.dll
+C:\Users\geetha-nus\Documents\Visual Studio 2013\Projects\logicuniversity\logicuniversity\bin\Controller.pdb
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\obj\Debug\logicuniversity.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\logicuniversity.dll.config
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\logicuniversity.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\logicuniversity.pdb
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Antlr3.Runtime.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Common.Logging.Core.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Common.Logging.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Controller.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\DAO.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Entity.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\EntityFramework.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Newtonsoft.Json.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Owin.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Quartz.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\System.Web.Helpers.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\System.Web.Mvc.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\System.Web.Optimization.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\System.Web.Providers.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\System.Web.Razor.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\System.Web.Webpages.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\WebGrease.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Controller.pdb
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\DAO.pdb
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Entity.pdb
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Common.Logging.pdb
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Common.Logging.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Common.Logging.Core.pdb
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Common.Logging.Core.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\EntityFramework.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Quartz.pdb
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Quartz.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\System.Web.Optimization.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Antlr3.Runtime.pdb
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Newtonsoft.Json.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\System.Web.Razor.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\System.Web.Webpages.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\System.Web.Helpers.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\System.Web.Mvc.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\obj\Debug\logicuniversity.dll
+C:\Users\Lenovo\Desktop\logicuniversity\logicuniversity\obj\Debug\logicuniversity.pdb
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.dll.config
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.pdb
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Antlr3.Runtime.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.bootstrap.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.jQuery.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Controller.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\DAO.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Entity.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.MSAjax.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.WebForms.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Newtonsoft.Json.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Owin.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Helpers.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Mvc.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Optimization.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Providers.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Razor.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\WebGrease.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Controller.pdb
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\DAO.pdb
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Entity.pdb
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.pdb
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.pdb
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.pdb
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Optimization.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Antlr3.Runtime.pdb
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Newtonsoft.Json.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Razor.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Helpers.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Mvc.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.xml
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.csprojResolveAssemblyReference.cache
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.dll
+G:\AD Final\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.csprojResolveAssemblyReference.cache
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.dll.config
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Antlr3.Runtime.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Controller.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\DAO.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Entity.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Newtonsoft.Json.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Owin.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Helpers.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Mvc.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Optimization.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Providers.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Razor.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\WebGrease.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Controller.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\DAO.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Entity.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Newtonsoft.Json.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Optimization.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Antlr3.Runtime.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Razor.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Helpers.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Mvc.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.pdb
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.dll.config
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.pdb
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Antlr3.Runtime.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Controller.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\DAO.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Entity.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Newtonsoft.Json.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Owin.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Helpers.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Mvc.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Optimization.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Providers.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Razor.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\WebGrease.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Controller.pdb
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\DAO.pdb
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Entity.pdb
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.pdb
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.pdb
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Newtonsoft.Json.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.pdb
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Optimization.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Antlr3.Runtime.pdb
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Razor.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Helpers.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Mvc.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.csprojResolveAssemblyReference.cache
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.dll
+C:\Users\a0136407j\Downloads\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.dll.config
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\logicuniversity.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Antlr3.Runtime.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.bootstrap.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\AspNet.ScriptManager.jQuery.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Controller.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\DAO.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Entity.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.ScriptManager.WebForms.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Newtonsoft.Json.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Owin.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Helpers.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Optimization.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Providers.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Razor.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\WebGrease.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Controller.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\DAO.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Entity.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Common.Logging.Core.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\EntityFramework.SqlServer.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.OAuth.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Newtonsoft.Json.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Quartz.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Optimization.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Antlr3.Runtime.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Razor.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Deployment.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Webpages.Razor.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\System.Web.Helpers.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Core.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Facebook.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Cookies.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Google.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.Twitter.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.csprojResolveAssemblyReference.cache
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\logicuniversity\obj\Debug\logicuniversity.pdb

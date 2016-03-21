@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/master_page/MasterPage.Master" AutoEventWireup="true" CodeBehind="supervisor.master.cs" Inherits="logicuniversity.master_page.supervisor" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="main_body" Runat="Server">
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li>
+                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Views/PurchaseOrder.aspx"> <i class="fa fa-desktop"></i> Approve Purchase Orders</asp:HyperLink>
+                  
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Views/ConfirmAdjVoubysup.aspx"> <i class="fa fa-desktop"></i>Confirm Adjustment Voucher</asp:HyperLink>
+                    </li>
+					<li>
+                         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Views/generateRequisitionTrend.aspx"> <i class="fa fa-desktop"></i> Requisition Trend Report</asp:HyperLink>
+                    </li>
+                    <li>
+                         <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Views/generateStationeryOrder.aspx"> <i class="fa fa-desktop"></i> Stationery Order Report</asp:HyperLink>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    <div id="page-wrapper">
+            <div id="page-inner">
+                <asp:ContentPlaceHolder id="body" runat="server">    
+            
+                </asp:ContentPlaceHolder> 
+            </div>
+        </div>
+</asp:Content>

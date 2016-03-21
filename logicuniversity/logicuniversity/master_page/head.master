@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/master_page/MasterPage.Master" AutoEventWireup="true" CodeBehind="head.master.cs" Inherits="logicuniversity.master_page.head" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="main_body" Runat="Server">
+    <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+
+                    
+                    <li>
+                             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Views/ApproveRequisition.aspx"> <i class="fa fa-desktop"></i>  Approve Requisiiton</asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Views/ViewRequisitionListHead.aspx"> <i class="fa fa-desktop"></i>  Requisition History</asp:HyperLink>
+                        
+                        
+                    </li>
+					<!--<li>
+                       <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Views/Update_Dept.aspx"> <i class="fa fa-bar-chart-o"></i> Update Department Info</asp:HyperLink>
+                    </li>-->
+                    <li>
+                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Views/Delegate_Authority.aspx"><i class="fa fa-qrcode"></i> Delegate Authority</asp:HyperLink>
+                    </li>
+                    <!--<li> <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Views/Create_Employee_Profile.aspx"> <i class="fa fa-desktop"></i>Create Employee Profile</asp:HyperLink></li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Views/Amend_Employee_Profile.aspx"> <i class="fa fa-desktop"></i>Amend_Employee_Profile</asp:HyperLink>
+                      </li>-->
+                </ul>
+
+            </div>
+
+        </nav>
+    <div id="page-wrapper">
+            <div id="page-inner">
+                <asp:ContentPlaceHolder id="body" runat="server">    
+            
+                </asp:ContentPlaceHolder> 
+            </div>
+        </div>  
+</asp:Content>

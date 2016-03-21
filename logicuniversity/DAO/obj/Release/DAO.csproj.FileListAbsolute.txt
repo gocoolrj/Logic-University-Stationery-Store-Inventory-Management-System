@@ -1,0 +1,64 @@
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\DAO.dll.config
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\DAO.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\DAO.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Common.Logging.Core.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Common.Logging.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Entity.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\EntityFramework.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Newtonsoft.Json.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Owin.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Quartz.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Entity.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Common.Logging.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Common.Logging.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Common.Logging.Core.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Common.Logging.Core.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\EntityFramework.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.Security.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Newtonsoft.Json.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Quartz.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Quartz.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\obj\Release\DAO.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\DAO\obj\Release\DAO.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\DAO.dll.config
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\DAO.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\DAO.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Common.Logging.Core.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Common.Logging.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Entity.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\EntityFramework.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\EntityFramework.SqlServer.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.Host.SystemWeb.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.Security.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Newtonsoft.Json.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Owin.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Quartz.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Entity.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Common.Logging.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Common.Logging.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Common.Logging.Core.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Common.Logging.Core.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\EntityFramework.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\EntityFramework.SqlServer.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.Host.SystemWeb.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.Security.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Newtonsoft.Json.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Quartz.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\bin\Release\Quartz.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\obj\Release\DAO.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\DAO\obj\Release\DAO.pdb

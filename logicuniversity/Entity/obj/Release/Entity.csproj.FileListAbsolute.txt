@@ -1,0 +1,41 @@
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Entity.dll.config
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Entity.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Entity.pdb
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\EntityFramework.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Newtonsoft.Json.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Owin.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\EntityFramework.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.Security.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Newtonsoft.Json.xml
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\obj\Release\Entity.dll
+C:\Users\a0136407j\Downloads\logicuniversity\logicuniversity\logicuniversity\Entity\obj\Release\Entity.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Entity.dll.config
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Entity.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Entity.pdb
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\EntityFramework.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\EntityFramework.SqlServer.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.Host.SystemWeb.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.Security.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.Security.OAuth.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Newtonsoft.Json.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Owin.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\EntityFramework.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\EntityFramework.SqlServer.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.Host.SystemWeb.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.Security.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Microsoft.Owin.Security.OAuth.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\bin\Release\Newtonsoft.Json.xml
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\obj\Release\Entity.dll
+C:\logicuniversity (2)\logicuniversity\logicuniversity\logicuniversity\Entity\obj\Release\Entity.pdb

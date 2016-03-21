@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7CE0E0B4-500C-4C33-8794-711D057D6B40}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAO</RootNamespace>
+    <AssemblyName>DAO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging">
+      <HintPath>..\packages\Common.Logging.3.0.0\lib\net40\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core">
+      <HintPath>..\packages\Common.Logging.Core.3.0.0\lib\net40\Common.Logging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz">
+      <HintPath>..\packages\Quartz.2.3.1\lib\net40\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\CategoryDAO.cs" />
+    <Compile Include="DAO\DelegateAuthDAO.cs" />
+    <Compile Include="DAO\DelegateDAO.cs" />
+    <Compile Include="DAO\DeliveryOrderDAO.cs" />
+    <Compile Include="DAO\EFFDAO.cs" />
+    <Compile Include="DAO\getListEEFDAO.cs" />
+    <Compile Include="DAO\InvAdjDAO.cs" />
+    <Compile Include="DAO\PODAO.cs" />
+    <Compile Include="DAO\PODetailDAO.cs" />
+    <Compile Include="DAO\StockLevelDAO.cs" />
+    <Compile Include="DAO\SupplierDAO.cs" />
+    <Compile Include="DAO\UnfulfillDAO.cs" />
+    <Compile Include="DAO\UpdateDepartmentEEFDAO.cs" />
+    <Compile Include="IService.cs" />
+    <Compile Include="Models\AddPurchaseOrder.cs" />
+    <Compile Include="Models\Catalogue.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\changeDelegation.cs" />
+    <Compile Include="Models\changeDelegationTrigger.cs" />
+    <Compile Include="Models\CheckDeldateChangeJob.cs" />
+    <Compile Include="Models\CollectionPoint.cs" />
+    <Compile Include="Models\Delegation.cs" />
+    <Compile Include="Models\DeliverOrder.cs" />
+    <Compile Include="Models\DeliverOrderDetail.cs" />
+    <Compile Include="Models\Department.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Inventory.cs" />
+    <Compile Include="Models\InventoryAdj.cs" />
+    <Compile Include="Models\InventoryAdjDetail.cs" />
+    <Compile Include="Models\JobScheduler.cs" />
+    <Compile Include="Models\PurchaseOrder.cs" />
+    <Compile Include="Models\PurchaseOrderDetail.cs" />
+    <Compile Include="Models\Quotation.cs" />
+    <Compile Include="Models\QuotationDetail.cs" />
+    <Compile Include="Models\Requisition.cs" />
+    <Compile Include="Models\RequisitionByDept.cs" />
+    <Compile Include="Models\RequisitionByDeptDetail.cs" />
+    <Compile Include="Models\RequisitionDetail.cs" />
+    <Compile Include="Models\Role.cs" />
+    <Compile Include="Models\Rolename.cs" />
+    <Compile Include="Models\StockCard.cs" />
+    <Compile Include="Models\StockLevel.cs" />
+    <Compile Include="Models\Supplier.cs" />
+    <Compile Include="Models\Unfulfill.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebService\CatalogueBroker.cs" />
+    <Compile Include="WebService\CategoryBroker.cs" />
+    <Compile Include="WebService\CollectionBroker.cs" />
+    <Compile Include="WebService\DepartmentBroker.cs" />
+    <Compile Include="WebService\EmployeeBroker.cs" />
+    <Compile Include="WebService\PurchaseOrderBroker.cs" />
+    <Compile Include="WebService\ReceiveStationeriesListBroker.cs" />
+    <Compile Include="WebService\RepresentativeNameDisplayInfoBroker.cs" />
+    <Compile Include="WebService\RequisitionBroker.cs" />
+    <Compile Include="WebService\StationeryDBEntities.cs" />
+    <Compile Include="WebService\SupplierBroker.cs" />
+    <Compile Include="WebService\updateUnfulfillItemBroker.cs" />
+    <Compile Include="WebService\ViewReceiveStationeriesListBroker.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="job_scheduling_data_2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{91f9c1cc-b12b-4805-a35e-d60cd720cc67}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
